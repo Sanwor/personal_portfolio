@@ -1,0 +1,145 @@
+*{
+  box-sizing: border-box;
+  font-family: poppins;
+}
+body{
+  background-color: #EDE8F5;
+}
+.main-container{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+}
+/* Navigation bar */
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #e0d9ec;
+}
+ 
+nav li {
+  float: right;
+}
+
+nav a {
+  display: flex;
+  color: rgb(0, 0, 0);
+  font-family: poppins;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: solid;
+}
+
+nav a:hover {
+  background-color: #3D52A0;
+  color: white;
+}
+
+
+/* text row 1 */
+.textrow1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  margin: 5px;
+  font-family: poppins;
+
+}
+
+.image-container{
+  width: 250px;
+  clip-path: circle();
+  align-items: center;
+  margin: 30px;
+  margin-left: 50px;
+}
+img{
+  width: 100%;
+  height: 100%;
+  clip-path: circle();
+  border: 1rem;
+}
+
+.h1{
+  padding: 50px;
+  margin: 100px;
+  margin-top: 5px;
+  margin-left: 10px;
+  align-items: center;
+  height: 100px;
+}
+
+/* social icons */
+footer{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #ADBBDA;
+}
+.social-icon{
+  width: 100%;
+}
+
+.social-icon p {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.social-icon ul{
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  align-items: center;
+  font-size: 35px;
+  flex-direction: row;
+  text-decoration: solid;
+  width: 100%;
+}
+
+.social-icon i{
+  border-radius: 50%;
+  padding: 1rem;
+}
+.social-icon a i{
+  font-size: 2rem;
+}
+.social-icon  li{
+  list-style: none;
+  margin: 30px;
+  float: left;
+}
+
+.social-icon ul li .fa-brands{
+  transition: .3s;
+  color: black;
+}
+
+.fa-brands {
+  transition: scale 250ms ease-in-out;
+}
+
+.fa-brands:hover {
+  scale: 1.25;
+}
+
+.fa-facebook{
+  color: #1877F2;
+}
+.fa-instagram{
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  
+   background-clip: text;
+  /* -webkit-text-fill-color: transparent; */
+}
+.fa-x-twitter{
+  color: black;
+}
+.fa-linkedin{
+  color: #0077B5;
+}
